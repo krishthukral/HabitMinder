@@ -23,6 +23,7 @@ const BottomNavigator = () => {
         <Tab.Screen
           name="HomeScreen"
           // Step 1. Render the HomeScreen component
+          component = {HomeScreen}
           options={{
             tabBarLabel: "Home",
             tabBarIcon: ({ color }) => (
@@ -33,7 +34,9 @@ const BottomNavigator = () => {
         <Tab.Screen
           name="Add"
           // Step 2. Render the AddHabits component
+          component = {AddHabits}
           options={{
+        
             tabBarLabel: "Add Habit",
             tabBarIcon: ({ color }) => (
               <MaterialCommunityIcons
@@ -47,6 +50,7 @@ const BottomNavigator = () => {
         <Tab.Screen
           name="Habits"
           // Step 3. Render the Habits component
+          component = {Habits}
           options={{
             tabBarLabel: "Habits",
             tabBarIcon: ({ color }) => (

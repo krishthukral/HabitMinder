@@ -8,6 +8,7 @@ import Productivty from "../screens/Productivity";
 const FirstRoute = () => (
   <View style={{ flex: 1, backgroundColor: "black" }}>
     {/* Step 1. Render the Overview screen */}
+    <Overview />
   </View>
 );
 
@@ -15,6 +16,7 @@ const FirstRoute = () => (
 const SecondRoute = () => (
   <View style={{ flex: 1, backgroundColor: "black" }}>
     {/* Step 2. Render the Productivity screen */}
+    <Productivty />``
   </View>
 );
 

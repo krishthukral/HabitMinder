@@ -21,7 +21,7 @@ export default function App() {
   return (
     // STEP 5: Define a SafeAreaView component with style object containing inline styling
     <SafeAreaProvider>
-      <SafeAreaView style={{ flex: 1 }}>
+     <SafeAreaView style={{ flex: 1 }}>
         <View style={styles.container}>
           <Text className="text-4xl text-white">Habit Minder!</Text>
           {/* STEP 6: Use NavigationContainer component from "@react-navigation/native" package */}
